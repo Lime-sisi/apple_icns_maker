@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # TO-DO: Replace the picture file's path here
-CPATH="$HOME/Downloads/BM1.png"
+CPATH="$HOME/YOUR_PICTURE_FILE_PATH"
 # Check existence  
 if [ ! -f "$CPATH" ]; then
     echo "🔕 the file you just specified doesn't exist" 
@@ -10,7 +10,7 @@ fi
 
 # Make the iconset folder if it doesn't exist
 # TO-DO: replace with your own unique iconset folder name
-ICONSET_DIR="BM1.iconset"
+ICONSET_DIR="ICONSET_FOLDER_NAME"
 mkdir -p "$ICONSET_DIR"
 echo "🖇️  Generating icon sizes..."
 
